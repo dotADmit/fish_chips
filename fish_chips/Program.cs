@@ -13,7 +13,7 @@ namespace fish_chips
             Display test = new Display(10, 49);
 
             DisplaySettings t = new DisplaySettings();
-            t.GetMainSettings();
+            Settings newsdf = t.GetMainSettings();
 
 
             Console.ReadKey();

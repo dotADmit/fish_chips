@@ -8,11 +8,12 @@ namespace fish_chips
 {
     struct Settings
     {
-        public int Height;
-        public int Width;
-        public int NumOfFishmen;
-        public int NumOfFish;
-        public int Iter;
-
+        public int PondHeight;
+        public int PondWidth;
+        public int FishmanCount;
+        public int FishNavagaCount;
+        public int FishKetsCount;
+        public int FishHalibutCount;
+        public int StepCount;
     }
 }
