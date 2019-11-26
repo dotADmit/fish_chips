@@ -16,10 +16,10 @@ namespace fish_chips
 
 
 
-        public Display(int height, int widht)
+        public Display(int height, int width)
         {
             _height = height;
-            _width = widht;
+            _width = width;
         }
     }
 }

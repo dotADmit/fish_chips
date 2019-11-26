@@ -50,6 +50,7 @@
     <Compile Include="FishBox.cs" />
     <Compile Include="Fishman.cs" />
     <Compile Include="FishType.cs" />
+    <Compile Include="GamePoint.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Settings.cs" />
