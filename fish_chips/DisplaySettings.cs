@@ -26,12 +26,7 @@ namespace fish_chips
             Console.Write("Введите максимальное количество шагов в симуляции: ");
             settings.StepCount = Convert.ToInt32(Console.ReadLine());
 
-
-
-
             return settings;
-
-
         }
     }
 }

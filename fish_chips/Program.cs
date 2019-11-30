@@ -10,12 +10,40 @@ namespace fish_chips
     {
         static void Main(string[] args)
         {
-            Display test = new Display(10, 49);
 
             DisplaySettings t = new DisplaySettings();
-            Settings newsdf = t.GetMainSettings();
+            Settings testSettings = t.GetMainSettings();
+
+            Display testDisplay = new Display(testSettings.PondHeight, testSettings.PondWidth);
+
+            List<GamePoint> gamePoints = new List<GamePoint>();
+            gamePoints.Add(new GamePoint()
+            {
+                XPosition = 5,
+                YPosition = 5,
+                ForegroundColor = ConsoleColor.Black,
+                BackgroundColor = ConsoleColor.Green,
+                Text = "5"
+            });
+            gamePoints.Add(new GamePoint()
+            {
+                XPosition = 7,
+                YPosition = 10,
+                BackgroundColor = ConsoleColor.Black,
+                ForegroundColor = ConsoleColor.Cyan,
+                Text = "7"
+            });
+            gamePoints.Add(new GamePoint()
+            {
+                XPosition = 12,
+                YPosition = 14,
+                BackgroundColor = ConsoleColor.DarkYellow,
+                ForegroundColor = ConsoleColor.Black,
+                Text = " "
+            });
 
 
+            testDisplay.PrintPond();
             Console.ReadKey();
             
         }

@@ -8,18 +8,40 @@ namespace fish_chips
 {
     class Display
     {
-        private int _height;
-        private int _width;
+        private int _pondHeight;
+        private int _pondWidth;
         private int _numOfFishmen;
         private int _numOfFish;
         private int _numOfIter;
 
 
 
-        public Display(int height, int width)
+        public Display(int PondHeight, int PondWidth)
         {
-            _height = height;
-            _width = width;
+            _pondHeight = PondHeight;
+            _pondWidth = PondWidth;
         }
+        public void PrintPond()
+        {
+            Console.WriteLine($"+{new string('-', _pondWidth)}+");
+            for (int i = 0; i < _pondHeight; i++)
+            {
+                Console.WriteLine($"|{new string(' ', _pondWidth)}|");
+            }
+            Console.WriteLine($"+{new string('-', _pondWidth)}+");
+        }
+
+        public void Render (List<GamePoint> gamePoints)
+        {
+
+        }
+        public void PrintStatistics (List<Fishman> fishmen, int currentStep)
+        {
+
+        }
+        //public void PrintResult( List<FishmanResult> fishmanResults, int currentStep)
+        //{
+
+        //}
     }
 }
