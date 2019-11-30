@@ -76,6 +76,7 @@ namespace fish_chips
             testDisplay.Render(gamePoints2);
 
             List<Fishman> fishmen = new List<Fishman>();
+
             fishmen.Add(new Fishman()
             {
                 Name = "Иван",

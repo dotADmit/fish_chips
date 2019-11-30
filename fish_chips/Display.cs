@@ -10,11 +10,6 @@ namespace fish_chips
     {
         private int _pondHeight;
         private int _pondWidth;
-        //private int _numOfFishmen;
-        //private int _numOfFish;
-        //private int _numOfIter;
-
-
 
         public Display(int PondHeight, int PondWidth)
         {
@@ -72,11 +67,6 @@ namespace fish_chips
             {
                 Console.WriteLine($"{item.Fishman.Name} - {item.Cost}$");
             }
-
-
-
-
-
         }
     }
 }
