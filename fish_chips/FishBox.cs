@@ -8,7 +8,7 @@ namespace fish_chips
 {
     struct FishBox
     {
-        public FishType FishType;
-        public int Volume;
+        public FishType Type;
+        public double Volume;
     }
 }

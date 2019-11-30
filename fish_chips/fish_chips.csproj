@@ -49,6 +49,7 @@
     <Compile Include="Fish.cs" />
     <Compile Include="FishBox.cs" />
     <Compile Include="Fishman.cs" />
+    <Compile Include="FishmanResult.cs" />
     <Compile Include="FishType.cs" />
     <Compile Include="GamePoint.cs" />
     <Compile Include="Program.cs" />

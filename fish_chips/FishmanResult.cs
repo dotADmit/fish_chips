@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace fish_chips
 {
-    enum FishType
+    class FishmanResult
     {
-        Navaga,
-        Keta,
-        Halibut
+        public Fishman Fishman;
+        public double Cost;
     }
 }
